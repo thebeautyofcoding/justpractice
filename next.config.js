@@ -9,15 +9,12 @@ module.exports = {
     },
 
     env: {
-           
-        PRODUCTION: true,
+        PRODUCTION: false,
         APP_NAME: "justPractice",
-        DOMAIN_PRODUCTION:process.env.DOMAIN_PRODUCTION,
-            API_PRODUCTION: process.env.API_PRODUCTION,
-            API_DEVELOPMENT: process.env.API_DEVELOPMENT,
-            DOMAIN_DEVELOPMENT: process.env.DOMAIN_DEVELOPMENT,
-        
-       
+        DOMAIN_PRODUCTION: process.env.DOMAIN_PRODUCTION,
+        API_PRODUCTION: process.env.API_PRODUCTION,
+        API_DEVELOPMENT: process.env.API_DEVELOPMENT,
+        DOMAIN_DEVELOPMENT: process.env.DOMAIN_DEVELOPMENT,
         GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID
 
     }

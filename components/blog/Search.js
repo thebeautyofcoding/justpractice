@@ -98,7 +98,7 @@ useEffect(() => {
            
                 listSearchSuggs({ search: e.target.value }).then(data => {
                  
-                    
+                    console.log(data)
                     const searchSuggestionsSet = new Set();    
            
                     data.map(sugg => searchSuggestionsSet.add(sugg))

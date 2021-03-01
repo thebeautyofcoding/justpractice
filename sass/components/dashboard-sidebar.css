@@ -33,11 +33,11 @@
 }
 
 .dashboard-sidebar-container .dashboard-sidebar {
-  background-color: #f5efef;
+  background-color: #fcfafa;
   width: 300px;
-  height: 100vh;
+  height: 93.5vh;
   position: absolute;
-  top: 4rem;
+  top: 4.65rem;
   left: 0;
   z-index: +1000;
   display: -webkit-box;

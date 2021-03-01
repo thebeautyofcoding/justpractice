@@ -277,7 +277,7 @@ const router = useRouter()
                         </li>}
                     {isAuth() &&
                         <button className="Button Button--red" onClick={() => {
-
+                            
                             signout(dispatch(successSignout()))
                         }}>
 
@@ -328,7 +328,7 @@ const router = useRouter()
                                 </li>}
                             <li>
                                 <button onClick={linkClickHandler} className="Button Button--red" onClick={() => {
-
+                                    linkClickHandler()
                                     signout(dispatch(successSignout()))
                                 }}>Logout</button>   </li>
 
