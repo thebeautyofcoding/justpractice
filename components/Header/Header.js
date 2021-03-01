@@ -330,7 +330,7 @@ const router = useRouter()
                                 <button onClick={linkClickHandler} className="Button Button--red" onClick={() => {
                                     linkClickHandler()
                                     signout(dispatch(successSignout()))
-                                }}>Logout</button>   </li>
+                                }}>Logout</button></li>
 
                         </ul>
                     </div>
